@@ -4,7 +4,7 @@
 ---
 
 > [!CAUTION]  
-> eval() is an unsafe command with literal_eval() being one workaround
+> eval() is an [unsafe command](https://www.codiga.io/blog/python-eval/) with literal_eval() being one workaround
 
 ```
 class Pers:
@@ -28,9 +28,9 @@ duh(pers1,pers2)
 ```
 
 ## Key-Considerations: Security and Ease of Use
-** Past Experience: ** Lastpass and KeePass
-** Thoughts: ** Local > Cloud for Security
-** Potential Issues: ** Recoverability potential issues.
+**Past Experience:** Lastpass and KeePass\
+**Thoughts:** Local > Cloud for security\
+**Potential Issues:** Recoverability potential issues.
 
 ### KeePassXC
 KeePassXC cross platform, good security and known experience (+Ease of Use +Security)
@@ -38,10 +38,10 @@ KeePassXC cross platform, good security and known experience (+Ease of Use +Secu
 ### BitWarden
 Would be fun project (+Learning -Time)
 
-** Selection: KeePassXC **
+**Selection: KeePassXC**
 
-Optional:
+#### Optional:
 `sudo apt search KeepassXC`
 `sudo apt show KeepassXC`
-Non-Optional:
+#### Non-Optional:
 `sudo apt install KeePassXC`
