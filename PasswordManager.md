@@ -45,3 +45,6 @@ Would be fun project (+Learning -Time)
 `sudo apt show KeepassXC`
 #### Non-Optional:
 `sudo apt install KeePassXC`
+
+## Bonus Features
+TOTP QR Code Integration w/ QR Generation
